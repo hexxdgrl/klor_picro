@@ -1,16 +1,18 @@
-//#include "config_common.h"
-
 #pragma once
+
+// Split communications
 
 #define SERIAL_USE_MULTI_TRANSACTION
 #define USE_SERIAL
-#define SOFT_SERIAL_PIN GP1
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP1
+#define SERIAL_USART_RX_PIN GP4
 #define SERIAL_USE_MULTI_TRANSACTION
 #define SPLIT_USB_DETECT
 #define I2C1_SDA_PIN GP2
 #define I2C1_SCL_PIN GP3
 
-// Encoder
+// Encoder config
 
 #define ENCODERS_PAD_A       { GP28 }
 #define ENCODERS_PAD_B       { GP29 }
@@ -26,4 +28,4 @@
 #    define OLED_FONT_H  "./lib/glcdfont.c"
 #endif
 
-// Trackball, Audio, Haptics and RGB ommitted.
+// Trackball, Audio, Haptics and RGB ommitted for now.
