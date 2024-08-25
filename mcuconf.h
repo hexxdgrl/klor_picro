@@ -1,3 +1,5 @@
+//Enable I2C, seems to be req'd
+
 #pragma once
 
 #include_next <mcuconf.h>

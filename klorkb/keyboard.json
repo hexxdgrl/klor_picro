@@ -1,3 +1,5 @@
+// Matrix config was completely redone to remove it from the header files and put it in the "keyboard.json" file, where it is supposed to be
+
 {
   "usb_detect": {
     "enabled": true
