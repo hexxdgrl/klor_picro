@@ -1,0 +1,5 @@
+DEFAULT_FOLDER = klor_fix/klorkb
+SERIAL_DRIVER = vendor
+WS2812_DRIVER = vendor
+OLED_DRIVER = ssd1306
+ENCODER_ENABLE = yes
